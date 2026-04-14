@@ -41,7 +41,7 @@ async function CategoryNewsContent({
   const items = await fetchAllNews({
     category: slug as Category,
     q: params.q || undefined,
-    days: params.days ? parseInt(params.days, 10) : 7,
+    days: params.days === "all" ? undefined : params.days ? parseInt(params.days, 10) : 7,
   });
 
   return (

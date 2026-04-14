@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
     const items = await fetchAllNews({
       category: category || undefined,
       q: q || undefined,
-      days: days ? parseInt(days, 10) : 7,
+      days: days === "all" ? undefined : days ? parseInt(days, 10) : 7,
       source: source || undefined,
     });
 

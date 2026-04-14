@@ -15,7 +15,7 @@ async function NewsContent({ searchParams }: { searchParams: Promise<{ q?: strin
   const params = await searchParams;
   const items = await fetchAllNews({
     q: params.q || undefined,
-    days: params.days ? parseInt(params.days, 10) : 7,
+    days: params.days === "all" ? undefined : params.days ? parseInt(params.days, 10) : 7,
   });
 
   const featured = items[0];
