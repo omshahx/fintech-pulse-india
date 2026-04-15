@@ -32,6 +32,7 @@ function getCategoryEmoji(slug: string): string {
     banking: "\u{1F3E6}",
     insurtech: "\u{1F6E1}",
     lending: "\u{1F4B0}",
+    "kyc-compliance": "\u{1FAAA}",
     general: "\u{1F4F0}",
   };
   return emojiMap[slug] || "\u{1F4F0}";

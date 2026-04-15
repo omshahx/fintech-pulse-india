@@ -7,6 +7,7 @@ export type Category =
   | "banking"
   | "insurtech"
   | "lending"
+  | "kyc-compliance"
   | "general";
 
 export interface NewsItem {
