@@ -17,8 +17,8 @@ export const CATEGORIES: CategoryInfo[] = [
     keywords: [
       "rbi", "sebi", "irdai", "npci", "regulation", "compliance", "policy",
       "guideline", "circular", "amendment", "mandate", "directive", "licence",
-      "license", "regulatory", "reserve bank", "securities", "pmlr", "kyc",
-      "aml", "data protection", "dpdp", "meity",
+      "license", "regulatory", "reserve bank", "securities", "pmlr",
+      "data protection", "dpdp", "meity",
     ],
   },
   {
@@ -85,7 +85,7 @@ export const CATEGORIES: CategoryInfo[] = [
     color: "text-teal-500 bg-teal-500/10",
     keywords: [
       "insurance", "insurtech", "health insurance", "motor insurance",
-      "life insurance", "claim", "underwriting", "policy", "premium",
+      "life insurance", "claim", "policy", "premium",
       "acko", "digit", "policybazaar",
     ],
   },
@@ -98,6 +98,22 @@ export const CATEGORIES: CategoryInfo[] = [
       "lending", "loan", "credit", "emi", "interest rate", "personal loan",
       "home loan", "gold loan", "digital lending", "p2p", "microfinance",
       "credit score", "credit line",
+    ],
+  },
+  {
+    slug: "kyc-compliance",
+    label: "KYC & Fraud",
+    icon: "fingerprint",
+    color: "text-indigo-500 bg-indigo-500/10",
+    keywords: [
+      "kyc", "ekyc", "e-kyc", "video kyc", "v-cip", "ckyc", "kyb",
+      "identity verification", "digital identity", "aadhaar verification",
+      "pan verification", "face match", "liveness", "onboarding",
+      "customer onboarding", "underwriting", "risk scoring",
+      "fraud", "fraud detection", "fraud prevention", "fraud analysis",
+      "aml", "anti-money laundering", "sanctions screening", "pep",
+      "transaction monitoring", "regtech", "idfy", "hyperverge",
+      "signzy", "bureau", "perfios", "karza",
     ],
   },
   {
